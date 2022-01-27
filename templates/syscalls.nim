@@ -35,7 +35,7 @@ type
 #ifndef SW2_HEADER_H_
 #define SW2_HEADER_H_
 
-#include <Windows.h>
+#include <windows.h>
 
 #define SW2_SEED 0x81DC70F1
 #define SW2_ROL8(v) (v << 8 | v >> 24)

@@ -205,7 +205,7 @@ def compileNim(fileName, fileType, executionMode, localInject, showConsole, unho
         gui = "gui"
 
     try:
-        compileCommand = f"nim c -d:strip -d:release --opt:size --passl:-flto --hints:off --warnings:off --app:{gui} --cpu={cpu}"
+        compileCommand = f"nim c -d:strip -d:release --opt:size --hints:off --warnings:off --app:{gui} --cpu={cpu}"
 
         if useSyscalls:
             compileCommand = compileCommand + " -d:syscalls"
