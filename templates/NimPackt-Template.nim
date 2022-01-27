@@ -54,7 +54,7 @@ when defined calcPrimes:
         var max: int = seconds * 68500
 
         when defined verbose:
-            echo "[*] Sleeping for approx. ", time, " seconds"
+            echo "[*] Sleeping for approx. ", seconds, " seconds"
 
         for n in countup(2, max):
             var ok: bool = true
